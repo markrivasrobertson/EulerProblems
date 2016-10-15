@@ -11,7 +11,7 @@ console.log('alsoAnswer');
 console.log(answer)
 console.log('the answer');
 const displayAnswer = document.createElement('h1');
-displayAnswer.innerHTML = `${answer} is the answer`;
+displayAnswer.innerHTML = `<span>${answer}</span> is the answer`;
 document.getElementById('root').appendChild(displayAnswer);
 
 
